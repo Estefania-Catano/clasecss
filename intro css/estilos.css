@@ -1,0 +1,55 @@
+/* h2{
+    background-color: fuchsia;
+    color: white;
+    text-align: center;
+} */
+/*TIPOS DE SELECTORES*/
+/*Selectores por nombre de etiqueta*/
+/* p {color: fuchsia;
+    font-size: 30px;
+} */
+/*Selectores de identificador*/
+/*identificador id (#)*/
+/* #p2 {
+    color: darkblue;
+    font-size: 30px;
+}
+/*Identificador class(.)*/
+/* .texto-cursivo{
+    font-style: italic; /*estilo de letra*/
+    /* font-weight: bold; Gruesor de la letra */
+    /* }
+    .texto-grande{
+        font-size: 40px;
+    }
+    p#p2{font-size: 50px;} */
+    /*Selectores de jerarquia*/
+    /*hijo directo (>) */
+    /* div>p{
+        font-size: 30px;
+        color: blueviolet;
+    }
+    div>span>p{
+        font-size: 30px;
+        color:blue;
+    } */
+     /* Hijos indirectos ( )*/
+/* div p{
+    font-size: 30px;
+    color: fuchsia;
+} */
+ /*Selectores adyacentes o hermano*/
+ /*Selector primer hermano(+)*/
+ /* div + p{
+    font-size: 20px;
+    color: blue;
+ }
+ div + p + p{
+    font-size: 20px;
+    color: rgb(51, 189, 17);
+ } */
+ /*selector todos los hermanos (~)*/
+ div~p{
+    font-size: 30px;
+    color: blue};
+ }
