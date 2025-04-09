@@ -1,0 +1,29 @@
+:root{
+    font-size: 30px;/*tamaño de letra*/
+}
+.caja-1, .caja-2, .caja-3{
+    display: none;
+    width: 100%;/*ancho*/
+    height: 100px; /*alto*/
+    background-color:fuchsia;/*para cambiar el color*/
+}
+.caja-1{
+    width: 50%;
+    /* max-width: 80%; */
+    background-color: blue;
+    /* border-top: 10px groove chocolate; */
+    /* border-top-left-radius: 20px; */
+}
+.caja-2{
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+    /* margin: 50px 10px 5px;
+    padding-bottom: 50px;
+    padding-left: 50px; */
+}
+/* .cajita{
+    font-size: 2rem;
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+} */
